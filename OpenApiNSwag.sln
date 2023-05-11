@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GroceryApi", "OpenApiNSwag\GroceryApi.csproj", "{94EBE3A7-093D-40C1-BE1D-D2D4E44395B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GroceryDal", "GroceryDal\GroceryDal.csproj", "{6202ACBA-0DAA-42BD-A3E1-886C2F1F0019}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{28BEF44C-474B-44C4-84A7-D32E424BB0A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{A0C11F6E-F5C6-45B4-A8AB-703C25F92C44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "Business\Business.csproj", "{E916B50E-6493-413E-A369-3DB99E7245F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NSwagGrocerySdk", "NSwagGrocerySdk\NSwagGrocerySdk.csproj", "{C2A4FF83-A5B1-4328-97CF-1F911823B79B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp", "SampleApp\SampleApp.csproj", "{96CD3968-D6E4-4FCF-A942-3B76850B9279}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94EBE3A7-093D-40C1-BE1D-D2D4E44395B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94EBE3A7-093D-40C1-BE1D-D2D4E44395B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94EBE3A7-093D-40C1-BE1D-D2D4E44395B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94EBE3A7-093D-40C1-BE1D-D2D4E44395B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6202ACBA-0DAA-42BD-A3E1-886C2F1F0019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6202ACBA-0DAA-42BD-A3E1-886C2F1F0019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6202ACBA-0DAA-42BD-A3E1-886C2F1F0019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6202ACBA-0DAA-42BD-A3E1-886C2F1F0019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28BEF44C-474B-44C4-84A7-D32E424BB0A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28BEF44C-474B-44C4-84A7-D32E424BB0A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28BEF44C-474B-44C4-84A7-D32E424BB0A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28BEF44C-474B-44C4-84A7-D32E424BB0A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0C11F6E-F5C6-45B4-A8AB-703C25F92C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0C11F6E-F5C6-45B4-A8AB-703C25F92C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0C11F6E-F5C6-45B4-A8AB-703C25F92C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0C11F6E-F5C6-45B4-A8AB-703C25F92C44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E916B50E-6493-413E-A369-3DB99E7245F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E916B50E-6493-413E-A369-3DB99E7245F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E916B50E-6493-413E-A369-3DB99E7245F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E916B50E-6493-413E-A369-3DB99E7245F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2A4FF83-A5B1-4328-97CF-1F911823B79B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2A4FF83-A5B1-4328-97CF-1F911823B79B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2A4FF83-A5B1-4328-97CF-1F911823B79B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2A4FF83-A5B1-4328-97CF-1F911823B79B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96CD3968-D6E4-4FCF-A942-3B76850B9279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96CD3968-D6E4-4FCF-A942-3B76850B9279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96CD3968-D6E4-4FCF-A942-3B76850B9279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96CD3968-D6E4-4FCF-A942-3B76850B9279}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C2811B4-BDFC-46CD-9973-DC8FFB20FE62}
+	EndGlobalSection
+EndGlobal
